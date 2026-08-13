@@ -1,6 +1,5 @@
 
-'''
-# Create BankAccount where __init__ takes owner and starting balance; reject a negative starting balance
+# 1.Create BankAccount where __init__ takes owner and starting balance; reject a negative starting balance
 
 class Bank_Account:
 
@@ -18,7 +17,7 @@ owner_2 = Bank_Account('Raghu',-200)
 
 
 
-# Create a User class where __init__ auto-generates a user_id using a class-level counter.
+# 2.Create a User class where __init__ auto-generates a user_id using a class-level counter.
 
 class User:
 
@@ -42,7 +41,7 @@ user_3.show()
 
 
 
-# Create a Flight class where __init__ sets flight number, origin, destination; add print_boarding_pass().
+# 3.Create a Flight class where __init__ sets flight number, origin, destination; add print_boarding_pass().
 
 class Flight:
 
@@ -62,7 +61,7 @@ flight_2.print_boarding_pass()
 
 
 
-# Write a method comparing two Product objects by price.
+# 4.Write a method comparing two Product objects by price.
 
 class Product:
 
@@ -85,7 +84,7 @@ product_1.comparision(product_2)
 
 
 
-# Create an Order class where __init__ takes a list of items and calculates total cost immediately.
+# 5.Create an Order class where __init__ takes a list of items and calculates total cost immediately.
 
 class Order:
 
@@ -102,7 +101,7 @@ product_1.show()
 
 
 
-# Create an Employee class where __init__ raises ValueError for a negative salary.
+# 6.Create an Employee class where __init__ raises ValueError for a negative salary.
 
 class Employee:
 
@@ -120,7 +119,7 @@ employee_2 = Employee('Siddhu',-10000)
 
 
 
-# Create two Point objects (x, y) and calculate the distance between them.
+# 7.Create two Point objects (x, y) and calculate the distance between them.
 
 import math
 
@@ -140,7 +139,7 @@ point_1.distance(point_2)
 
 
 
-# Create a Book class where __init__ sets available=True by default; add borrow()/return_book().
+# 8.Create a Book class where __init__ sets available=True by default; add borrow()/return_book().
 
 class Book:
 
@@ -169,7 +168,7 @@ book_1.return_book()
 
 
 
-# Create a Car class where __init__ sets brand, model, year; add a method returning the car's age.
+# 9.Create a Car class where __init__ sets brand, model, year; add a method returning the car's age.
 
 class Car:
 
@@ -190,8 +189,8 @@ car_1.age()
 car_2.age()
 
 
-'''
-# Create a Person class and print several instances to observe Python's default object representation.
+
+# 10.Create a Person class and print several instances to observe Python's default object representation.
 
 class Person:
     pass
