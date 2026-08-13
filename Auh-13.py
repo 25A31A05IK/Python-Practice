@@ -1,4 +1,3 @@
-'''
 # 1.Create a 3-level chain Person -> Employee -> Manager, each constructor adding attributes via super().
 
 class Person:
@@ -217,7 +216,7 @@ class Digital_Product(Product):
 product_1 =Digital_Product()
 
 
-'''
+
 # 10.Create Person -> Student -> GraduateStudent and verify all attributes are accessible.
 class Person:
 
